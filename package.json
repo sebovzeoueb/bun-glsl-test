@@ -1,0 +1,16 @@
+{
+  "name": "bun-glsl-test",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "bun-plugin-glsl": "^0.2.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "dev": "bun build ./index.ts --outdir=./dist"
+  }
+}
