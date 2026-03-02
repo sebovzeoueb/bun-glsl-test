@@ -6,6 +6,12 @@ To install dependencies:
 bun install
 ```
 
+To try the currently failing watch mode build:
+
+```bash
+bun run dev
+```
+
 To run:
 
 ```bash
