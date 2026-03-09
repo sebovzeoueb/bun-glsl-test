@@ -9,8 +9,5 @@
   },
   "peerDependencies": {
     "typescript": "^5"
-  },
-  "scripts": {
-    "dev": "bun build ./index.ts --outdir=./dist"
   }
 }
