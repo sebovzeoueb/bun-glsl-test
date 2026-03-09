@@ -24,4 +24,4 @@ To see this method in action, do `bun run ./serve.ts`.
 
 ### Build script
 
-You can include plugins by calling the bundler from a script instead of the CLI, however the downside here is that you can't use watch mode. To see an example of this use `bun run build.ts`. Note that once again we use `browser.ts` where the `default` property is referenced in the script. If you look at the resulting JavaScript you will see that the shader is correctly inlined into the script (minus the part where you have to access `default`)
+You can include plugins by calling the bundler from a script instead of the CLI, however the downside here is that you can't use watch mode. To see an example of this use `bun run ./build.ts`. Note that once again we use `browser.ts` where the `default` property is referenced in the script. If you look at the resulting JavaScript you will see that the shader is correctly inlined into the script (minus the part where you have to access `default`)
