@@ -18,7 +18,7 @@ If you do `bun run ./index.ts` you will see the expected result.
 
 Bun allows you to serve an HTML file directly, there's a `serve.static` property not referenced in the main `bunfig.toml` documentation which allows you to specify plugins to use when bundling scripts from the page.
 
-Note that the plugin is instantiated and exported in `glsl.ts` which is referenced in `bunfig.toml`. It didn't appear to be possible to reference the plugin package directly. To achieve the same result as `index.ts` we have to reference the `default` property of the object return by the plugin, see `browser.ts`.
+Note that the plugin is instantiated and exported in `glsl.ts` which is referenced in `bunfig.toml`. It didn't appear to be possible to reference the plugin package directly. To achieve the same result as `index.ts` we have to reference the `default` property of the object returned by the plugin, see `browser.ts`.
 
 To see this method in action, do `bun run ./serve.ts`.
 
